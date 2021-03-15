@@ -1,0 +1,69 @@
+body{
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.login_frame{
+	width: 900px;
+	height: 700px;
+	padding: 13px;
+	/*padding指元素邊框跟元素內容之間的空間(內邊距的意思)*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -300px;
+	background-color: rgba(240, 255, 255, 0.5);
+	background-origin: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+}
+
+table{
+	width: 700px;
+	height: 200px;
+	margin: auto;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #AAAAAA;
+}
+
+
+thead{
+	font-size: 20px;
+	text-align: center;
+	background-color: #3D65F2;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #AAAAAA;
+
+}
+
+tr, td{
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #AAAAAA;
+}
+
+#left_title{
+	font-size: 16px;
+	text-align: left;
+}
+#right_title{
+	text-align: left;
+}
+
+.submit_button{
+	font-size: 16px;
+	background-color: #3D65F2;
+	color: white;
+}
+
+.reset_button{
+	font-size: 16px;
+	background-color: #F2B133;
+	color: white;
+}
